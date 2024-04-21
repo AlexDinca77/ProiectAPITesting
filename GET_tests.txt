@@ -1,0 +1,24 @@
+Endpoint: https://jsonplaceholder.typicode.com/posts/1
+
+Tests:
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+pm.test("Response contains the correct post details", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData).to.have.property('userId');
+    pm.expect(jsonData).to.have.property('id');
+    pm.expect(jsonData).to.have.property('title');
+    pm.expect(jsonData).to.have.property('body');
+});
+
+pm.test("Response contains the correct post", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData).to.have.property('id', 1);
+});
+
+pm.test("Response should contain 'Titlul meu' as the title", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData).to.have.property('title', 'Titlul meu');
+});

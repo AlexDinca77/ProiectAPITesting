@@ -1,0 +1,20 @@
+Endpoint: https://jsonplaceholder.typicode.com/posts
+
+Tests:
+pm.test("Status code is 201", function () {
+    pm.response.to.have.status(201);
+});
+
+pm.test("Response body is not empty", function () {
+    pm.response.to.not.be.null;
+    pm.response.to.not.be.undefined;
+});
+
+pm.test("Response should contain the correct post details", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData).to.have.property('title', 'Sample Title');
+    pm.expect(jsonData).to.have.property('body', 'Sample Body');
+    pm.expect(jsonData).to.have.property('userId', 1);
+});
+
+

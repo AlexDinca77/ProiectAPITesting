@@ -1,0 +1,8 @@
+Endpoint: https://jsonplaceholder.typicode.com/posts
+
+Body:
+{
+  "title": "Sample Title",
+  "body": "Sample Bodyy",
+  "userId": 1
+}

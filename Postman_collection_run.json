@@ -1,0 +1,194 @@
+{
+	"id": "74929739-9886-4b4d-a7ab-fbef9b77a60e",
+	"name": "Proiect final",
+	"timestamp": "2024-04-21T09:31:46.178Z",
+	"collection_id": "33827757-86597499-448a-4234-b60c-2e57d80f8525",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 10,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-04-21T09:31:44.403Z",
+	"totalFail": 2,
+	"results": [
+		{
+			"id": "f9c19b7c-e3df-4c4f-aec2-e37711b8a106",
+			"name": "GET Request Tests",
+			"url": "https://jsonplaceholder.typicode.com/posts/1",
+			"time": 98,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response contains the correct post details": true,
+				"Response contains the correct post": true,
+				"Response should contain 'Titlul meu' as the title": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response contains the correct post details": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response contains the correct post": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response should contain 'Titlul meu' as the title": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				98
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response contains the correct post details": true,
+					"Response contains the correct post": true,
+					"Response should contain 'Titlul meu' as the title": false
+				}
+			]
+		},
+		{
+			"id": "4c087531-2e24-45db-a9a3-e64512f371c1",
+			"name": "POST Request Tests",
+			"url": "https://jsonplaceholder.typicode.com/posts",
+			"time": 399,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Response body is not empty": true,
+				"Response should contain the correct post details": false
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response body is not empty": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response should contain the correct post details": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				399
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Response body is not empty": true,
+					"Response should contain the correct post details": false
+				}
+			]
+		},
+		{
+			"id": "a53a19b7-3488-4999-98d2-86b0579793b5",
+			"name": "PUT Request Tests",
+			"url": "https://jsonplaceholder.typicode.com/posts/1",
+			"time": 395,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response body is not empty": true,
+				"Response contains the updated post details": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response body is not empty": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response contains the updated post details": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				395
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response body is not empty": true,
+					"Response contains the updated post details": true
+				}
+			]
+		},
+		{
+			"id": "2c38a2b9-4e0d-40a3-9c4c-05e300831d2f",
+			"name": "DELETE Request Tests",
+			"url": "https://jsonplaceholder.typicode.com/posts/1",
+			"time": 157,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response body is empty object": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response body is empty object": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				157
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response body is empty object": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1049,
+	"collection": {
+		"requests": [
+			{
+				"id": "f9c19b7c-e3df-4c4f-aec2-e37711b8a106",
+				"method": "GET"
+			},
+			{
+				"id": "4c087531-2e24-45db-a9a3-e64512f371c1",
+				"method": "POST"
+			},
+			{
+				"id": "a53a19b7-3488-4999-98d2-86b0579793b5",
+				"method": "PUT"
+			},
+			{
+				"id": "2c38a2b9-4e0d-40a3-9c4c-05e300831d2f",
+				"method": "DELETE"
+			}
+		]
+	}
+}
