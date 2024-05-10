@@ -69,200 +69,200 @@ JavaScript Tests:
 <h2>Execution report for the created API collection </h2>
 
 Below you can find the execution report that was generated through the Postman collection runner. <br>
-{
-	"id": "74929739-9886-4b4d-a7ab-fbef9b77a60e",
-	"name": "Proiect final",
-	"timestamp": "2024-04-21T09:31:46.178Z",
-	"collection_id": "33827757-86597499-448a-4234-b60c-2e57d80f8525",
-	"folder_id": 0,
-	"environment_id": "0",
-	"totalPass": 10,
-	"delay": 0,
-	"persist": true,
-	"status": "finished",
-	"startedAt": "2024-04-21T09:31:44.403Z",
-	"totalFail": 2,
-	"results": [
-		{
-			"id": "f9c19b7c-e3df-4c4f-aec2-e37711b8a106",
-			"name": "GET Request Tests",
-			"url": "https://jsonplaceholder.typicode.com/posts/1",
-			"time": 98,
-			"responseCode": {
-				"code": 200,
-				"name": "OK"
-			},
-			"tests": {
-				"Status code is 200": true,
-				"Response contains the correct post details": true,
-				"Response contains the correct post": true,
-				"Response should contain 'Titlul meu' as the title": false
-			},
-			"testPassFailCounts": {
-				"Status code is 200": {
-					"pass": 1,
-					"fail": 0
-				},
-				"Response contains the correct post details": {
-					"pass": 1,
-					"fail": 0
-				},
-				"Response contains the correct post": {
-					"pass": 1,
-					"fail": 0
-				},
-				"Response should contain 'Titlul meu' as the title": {
-					"pass": 0,
-					"fail": 1
-				}
-			},
-			"times": [
-				98
-			],
-			"allTests": [
-				{
-					"Status code is 200": true,
-					"Response contains the correct post details": true,
-					"Response contains the correct post": true,
-					"Response should contain 'Titlul meu' as the title": false
-				}
-			]
-		},
-		{
-			"id": "4c087531-2e24-45db-a9a3-e64512f371c1",
-			"name": "POST Request Tests",
-			"url": "https://jsonplaceholder.typicode.com/posts",
-			"time": 399,
-			"responseCode": {
-				"code": 201,
-				"name": "Created"
-			},
-			"tests": {
-				"Status code is 201": true,
-				"Response body is not empty": true,
-				"Response should contain the correct post details": false
-			},
-			"testPassFailCounts": {
-				"Status code is 201": {
-					"pass": 1,
-					"fail": 0
-				},
-				"Response body is not empty": {
-					"pass": 1,
-					"fail": 0
-				},
-				"Response should contain the correct post details": {
-					"pass": 0,
-					"fail": 1
-				}
-			},
-			"times": [
-				399
-			],
-			"allTests": [
-				{
-					"Status code is 201": true,
-					"Response body is not empty": true,
-					"Response should contain the correct post details": false
-				}
-			]
-		},
-		{
-			"id": "a53a19b7-3488-4999-98d2-86b0579793b5",
-			"name": "PUT Request Tests",
-			"url": "https://jsonplaceholder.typicode.com/posts/1",
-			"time": 395,
-			"responseCode": {
-				"code": 200,
-				"name": "OK"
-			},
-			"tests": {
-				"Status code is 200": true,
-				"Response body is not empty": true,
-				"Response contains the updated post details": true
-			},
-			"testPassFailCounts": {
-				"Status code is 200": {
-					"pass": 1,
-					"fail": 0
-				},
-				"Response body is not empty": {
-					"pass": 1,
-					"fail": 0
-				},
-				"Response contains the updated post details": {
-					"pass": 1,
-					"fail": 0
-				}
-			},
-			"times": [
-				395
-			],
-			"allTests": [
-				{
-					"Status code is 200": true,
-					"Response body is not empty": true,
-					"Response contains the updated post details": true
-				}
-			]
-		},
-		{
-			"id": "2c38a2b9-4e0d-40a3-9c4c-05e300831d2f",
-			"name": "DELETE Request Tests",
-			"url": "https://jsonplaceholder.typicode.com/posts/1",
-			"time": 157,
-			"responseCode": {
-				"code": 200,
-				"name": "OK"
-			},
-			"tests": {
-				"Status code is 200": true,
-				"Response body is empty object": true
-			},
-			"testPassFailCounts": {
-				"Status code is 200": {
-					"pass": 1,
-					"fail": 0
-				},
-				"Response body is empty object": {
-					"pass": 1,
-					"fail": 0
-				}
-			},
-			"times": [
-				157
-			],
-			"allTests": [
-				{
-					"Status code is 200": true,
-					"Response body is empty object": true
-				}
-			]
-		}
-	],
-	"count": 1,
-	"totalTime": 1049,
-	"collection": {
-		"requests": [
-			{
-				"id": "f9c19b7c-e3df-4c4f-aec2-e37711b8a106",
-				"method": "GET"
-			},
-			{
-				"id": "4c087531-2e24-45db-a9a3-e64512f371c1",
-				"method": "POST"
-			},
-			{
-				"id": "a53a19b7-3488-4999-98d2-86b0579793b5",
-				"method": "PUT"
-			},
-			{
-				"id": "2c38a2b9-4e0d-40a3-9c4c-05e300831d2f",
-				"method": "DELETE"
-			}
-		]
-	}
-}
+{<br>
+	"id": "74929739-9886-4b4d-a7ab-fbef9b77a60e",<br>
+	"name": "Proiect final",<br>
+	"timestamp": "2024-04-21T09:31:46.178Z",<br>
+	"collection_id": "33827757-86597499-448a-4234-b60c-2e57d80f8525",<br>
+	"folder_id": 0,<br>
+	"environment_id": "0",<br>
+	"totalPass": 10,<br>
+	"delay": 0,<br>
+	"persist": true,<br>
+	"status": "finished",<br>
+	"startedAt": "2024-04-21T09:31:44.403Z",<br>
+	"totalFail": 2,<br>
+	"results": [<br>
+		{<br>
+			"id": "f9c19b7c-e3df-4c4f-aec2-e37711b8a106",<br>
+			"name": "GET Request Tests",<br>
+			"url": "https://jsonplaceholder.typicode.com/posts/1",<br>
+			"time": 98,<br>
+			"responseCode": {<br>
+				"code": 200,<br>
+				"name": "OK"<br>
+			},<br>
+			"tests": {<br>
+				"Status code is 200": true,<br>
+				"Response contains the correct post details": true,<br>
+				"Response contains the correct post": true,<br>
+				"Response should contain 'Titlul meu' as the title": false<br>
+			},<br>
+			"testPassFailCounts": {<br>
+				"Status code is 200": {<br>
+					"pass": 1,<br>
+					"fail": 0<br>
+				},<br>
+				"Response contains the correct post details": {<br>
+					"pass": 1,<br>
+					"fail": 0<br>
+				},<br>
+				"Response contains the correct post": {<br>
+					"pass": 1,<br>
+					"fail": 0<br>
+				},<br>
+				"Response should contain 'Titlul meu' as the title": {<br>
+					"pass": 0,<br>
+					"fail": 1<br>
+				}<br>
+			},<br>
+			"times": [<br>
+				98<br>
+			],<br>
+			"allTests": [<br>
+				{<br>
+					"Status code is 200": true,<br>
+					"Response contains the correct post details": true,<br>
+					"Response contains the correct post": true,<br>
+					"Response should contain 'Titlul meu' as the title": false<br>
+				}<br>
+			]<br>
+		},<br>
+		{<br>
+			"id": "4c087531-2e24-45db-a9a3-e64512f371c1",<br>
+			"name": "POST Request Tests",<br>
+			"url": "https://jsonplaceholder.typicode.com/posts",<br>
+			"time": 399,<br>
+			"responseCode": {<br>
+				"code": 201,<br>
+				"name": "Created"<br>
+			},<br>
+			"tests": {<br>
+				"Status code is 201": true,<br>
+				"Response body is not empty": true,<br>
+				"Response should contain the correct post details": false<br>
+			},<br>
+			"testPassFailCounts": {<br>
+				"Status code is 201": {<br>
+					"pass": 1,<br>
+					"fail": 0<br>
+				},<br>
+				"Response body is not empty": {<br>
+					"pass": 1,<br>
+					"fail": 0<br>
+				},<br>
+				"Response should contain the correct post details": {<br>
+					"pass": 0,<br>
+					"fail": 1<br>
+				}<br>
+			},<br>
+			"times": [<br>
+				399<br>
+			],<br>
+			"allTests": [<br>
+				{<br>
+					"Status code is 201": true,<br>
+					"Response body is not empty": true,<br>
+					"Response should contain the correct post details": false<br>
+				}<br>
+			]<br>
+		},<br>
+		{<br>
+			"id": "a53a19b7-3488-4999-98d2-86b0579793b5",<br>
+			"name": "PUT Request Tests",<br>
+			"url": "https://jsonplaceholder.typicode.com/posts/1",<br>
+			"time": 395,<br>
+			"responseCode": {<br>
+				"code": 200,<br>
+				"name": "OK"<br>
+			},<br>
+			"tests": {<br>
+				"Status code is 200": true,<br>
+				"Response body is not empty": true,<br>
+				"Response contains the updated post details": true<br>
+			},<br>
+			"testPassFailCounts": {<br>
+				"Status code is 200": {<br>
+					"pass": 1,<br>
+					"fail": 0<br>
+				},<br>
+				"Response body is not empty": {<br>
+					"pass": 1,<br>
+					"fail": 0<br>
+				},<br>
+				"Response contains the updated post details": {<br>
+					"pass": 1,<br>
+					"fail": 0<br>
+				}<br>
+			},<br>
+			"times": [<br>
+				395<br>
+			],<br>
+			"allTests": [<br>
+				{<br>
+					"Status code is 200": true,<br>
+					"Response body is not empty": true,<br>
+					"Response contains the updated post details": true<br>
+				}<br>
+			]<br>
+		},<br>
+		{<br>
+			"id": "2c38a2b9-4e0d-40a3-9c4c-05e300831d2f",<br>
+			"name": "DELETE Request Tests",<br>
+			"url": "https://jsonplaceholder.typicode.com/posts/1",<br>
+			"time": 157,<br>
+			"responseCode": {<br>
+				"code": 200,<br>
+				"name": "OK"<br>
+			},<br>
+			"tests": {<br>
+				"Status code is 200": true,<br>
+				"Response body is empty object": true<br>
+			},<br>
+			"testPassFailCounts": {<br>
+				"Status code is 200": {<br>
+					"pass": 1,<br>
+					"fail": 0<br>
+				},<br>
+				"Response body is empty object": {<br>
+					"pass": 1,<br>
+					"fail": 0<br>
+				}<br>
+			},<br>
+			"times": [<br>
+				157<br>
+			],<br>
+			"allTests": [<br>
+				{<br>
+					"Status code is 200": true,<br>
+					"Response body is empty object": true<br>
+				}<br>
+			]<br>
+		}<br>
+	],<br>
+	"count": 1,<br>
+	"totalTime": 1049,<br>
+	"collection": {<br>
+		"requests": [<br>
+			{<br>
+				"id": "f9c19b7c-e3df-4c4f-aec2-e37711b8a106",<br>
+				"method": "GET"<br>
+			},<br>
+			{<br>
+				"id": "4c087531-2e24-45db-a9a3-e64512f371c1",<br>
+				"method": "POST"<br>
+			},<br>
+			{<br>
+				"id": "a53a19b7-3488-4999-98d2-86b0579793b5",<br>
+				"method": "PUT"<br>
+			},<br>
+			{<br>
+				"id": "2c38a2b9-4e0d-40a3-9c4c-05e300831d2f",<br>
+				"method": "DELETE"<br>
+			}<br>
+		]<br>
+	}<br>
+}<br>
 
 
 
