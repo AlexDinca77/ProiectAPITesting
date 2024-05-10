@@ -29,7 +29,7 @@ JavaScript Tests:
 <br>
 
 
-<li>**POST**</li>
+<li><b>POST</b></li>
 
 HTTP method for request: **POST**<br>
 Request description: **POST request to the endpoint https://jsonplaceholder.typicode.com/posts allows you to create a new post in the JSONPlaceholder API. The request body should include JSON data with three fields: "title," which represents the title of the post, "body," containing the main content of the post, and "userId," indicating the ID of the user who authored the post. This endpoint is utilized for adding new posts to the system.**<br>
@@ -38,16 +38,16 @@ Response status code: **201 created**<br>
 
 Below you can find a picture of the API request from Postman:<br>
 
-**![image](https://github.com/AlexDinca77/api_testing_postman_jsonplaceholder/assets/167679707/101e9762-55b8-494b-bc76-0693356e58f9)
-**<br>
+![image](https://github.com/AlexDinca77/api_testing_postman_jsonplaceholder/assets/167679707/101e9762-55b8-494b-bc76-0693356e58f9)
+<br>
 
 JavaScript Tests:
 
-**![image](https://github.com/AlexDinca77/api_testing_postman_jsonplaceholder/assets/167679707/fd6bb117-d2ff-410c-ae83-4da341601635) **<br>
+![image](https://github.com/AlexDinca77/api_testing_postman_jsonplaceholder/assets/167679707/fd6bb117-d2ff-410c-ae83-4da341601635) <br>
 
-.............
 
-<li>**PUT**</li>
+
+<li><b>PUT</b></li>
 
 HTTP method for request: **PUT**<br>
 Request description: **A PUT request to the endpoint https://jsonplaceholder.typicode.com/posts/1 allows you to update an existing post with the ID "1" in the JSONPlaceholder API. The request body should include JSON data with three fields: "title," representing the updated title of the post, "body," containing the updated main content of the post, and "userId," indicating the ID of the user who authored the post (which remains unchanged in this case). This endpoint is utilized for modifying existing posts in the system.**<br>
@@ -56,14 +56,29 @@ Response status code: **200 OK**<br>
 
 Below you can find a picture of the API request from Postman:<br>
 
-**![image](https://github.com/AlexDinca77/api_testing_postman_jsonplaceholder/assets/167679707/89a6dc50-6809-43f9-bb81-3c69666e18d9)
-**<br>
+![image](https://github.com/AlexDinca77/api_testing_postman_jsonplaceholder/assets/167679707/89a6dc50-6809-43f9-bb81-3c69666e18d9)
+<br>
 
 JavaScript Tests:
+![image](https://github.com/AlexDinca77/api_testing_postman_jsonplaceholder/assets/167679707/915d5c62-7a14-41b5-bf5c-2e52640fedea)
+<br>
 
-**![image](https://github.com/AlexDinca77/api_testing_postman_jsonplaceholder/assets/167679707/915d5c62-7a14-41b5-bf5c-2e52640fedea)
-**<br>
+<li><b>DELETE</b></li><br>
+Nume Request: **DELETE**<br>
+HTTP method for request: DELETE<br>
+Request description: A DELETE request to the endpoint https://jsonplaceholder.typicode.com/posts/1 allows you to remove a specific post with the ID "1" from the JSONPlaceholder API. This endpoint is utilized for deleting existing posts from the system.<br>
+Test types / techniques used: BlackBox<br>
+Response status code:200 OK<br>
 
+Below you can find a picture of the API request from Postman:<br>
+
+![image](https://github.com/AlexDinca77/api_testing_postman_jsonplaceholder/assets/167679707/844d6776-9e06-434e-9998-7ceacc5e8dbd)<br>
+
+
+JavaScript Tests:<br>
+
+![image](https://github.com/AlexDinca77/api_testing_postman_jsonplaceholder/assets/167679707/b4c39131-3ba1-47f9-b3d8-8ab32eaa8aa8)<br>
+<br>
 </ol>
 
 <h2>Execution report for the created API collection </h2>
