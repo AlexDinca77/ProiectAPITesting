@@ -69,7 +69,6 @@ JavaScript Tests:
 <h2>Execution report for the created API collection </h2>
 
 Below you can find the execution report that was generated through the Postman collection runner. <br>
-
 {
 	"id": "74929739-9886-4b4d-a7ab-fbef9b77a60e",
 	"name": "Proiect final",
@@ -263,16 +262,43 @@ Below you can find the execution report that was generated through the Postman c
 			}
 		]
 	}
-}<br>
+}
 
-<h2>Defects found</h2>
 
-The following issues were identified while running the postman tests:<br>
 
 ****Inserati aici fie un fisier pdf care sa contina raportarea tuturor bug-urilor, fie le descrieti direct in git
 Bug-urile trebuie sa contina titlu, preconditii, pasi de executie, rezultate asteptate si rezultate actuale.
 Optional, bug-urile pot fi raportate in jira, si apoi puteti pune poze direct din jira**
+First bug:
 
+**Title**: Response should contain 'Titlul meu' as the title
+**Pre-conditions**:'- Endpoint: https://jsonplaceholder.typicode.com/posts/1
+**Execution steps**: 1. Configure the Endpoint with the URL from the pre-conditions
+2. Run the request
+**Expected results** : Response should contain 'Titlul meu' as the title
+**Actual results** : Response contains "sunt aut facere repellat provident occaecati excepturi optio reprehenderit" as the title
+
+Secound BUG :
+**Title**: Response should contain the correct post details
+**Pre-Conditions**:  Endpoint: https://jsonplaceholder.typicode.com/posts
+- Body:
+{
+  "title": "Sample Title",
+  "body": "Sample Bodyy",
+  "userId": 1
+
+**Execution steps**:1. Configure the Endpoint with the URL from the pre-conditions
+2. Configure the Body with the Body from the pre-conditions
+3. Run the request
+**Expected results**: Response body should contain the following key - value pairs:
+{
+**Actual results**:Response body contains the following key - value pairs:
+{
+  "title": "Sample Title",
+  "body": "Sample Bodyy",
+  "userId": 1
+}
+  
 <h2>Conclusions</h2>
 
 **Executed tests:** 12<br>
