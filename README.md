@@ -1,4 +1,4 @@
-<h1>API Testing Project for *api_testing_postman_jsonplaceholder*</h1>
+<h1>API Testing Project for **api_testing_postman_jsonplaceholder**</h1>
 
 The scope of this project is to use all  API knowledge gained throughout the Software Testing course and apply them in practice, using a live application.
 
