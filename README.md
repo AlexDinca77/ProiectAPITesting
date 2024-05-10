@@ -266,38 +266,36 @@ Below you can find the execution report that was generated through the Postman c
 
 
 
-****Inserati aici fie un fisier pdf care sa contina raportarea tuturor bug-urilor, fie le descrieti direct in git
-Bug-urile trebuie sa contina titlu, preconditii, pasi de executie, rezultate asteptate si rezultate actuale.
-Optional, bug-urile pot fi raportate in jira, si apoi puteti pune poze direct din jira**
-First bug:
 
-**Title**: Response should contain 'Titlul meu' as the title
-**Pre-conditions**:'- Endpoint: https://jsonplaceholder.typicode.com/posts/1
-**Execution steps**: 1. Configure the Endpoint with the URL from the pre-conditions
-2. Run the request
-**Expected results** : Response should contain 'Titlul meu' as the title
-**Actual results** : Response contains "sunt aut facere repellat provident occaecati excepturi optio reprehenderit" as the title
+First bug:<br>
 
-Secound BUG :
-**Title**: Response should contain the correct post details
-**Pre-Conditions**:  Endpoint: https://jsonplaceholder.typicode.com/posts
-- Body:
-{
-  "title": "Sample Title",
-  "body": "Sample Bodyy",
-  "userId": 1
+**Title**: Response should contain 'Titlul meu' as the title<br>
+**Pre-conditions**:'- Endpoint: https://jsonplaceholder.typicode.com/posts/1<br>
+**Execution steps**: 1. Configure the Endpoint with the URL from the pre-conditions<br>
+2. Run the request<br>
+**Expected results** : Response should contain 'Titlul meu' as the title<br>
+**Actual results** : Response contains "sunt aut facere repellat provident occaecati excepturi optio reprehenderit" as the title<br>
 
-**Execution steps**:1. Configure the Endpoint with the URL from the pre-conditions
-2. Configure the Body with the Body from the pre-conditions
-3. Run the request
-**Expected results**: Response body should contain the following key - value pairs:
-{
-**Actual results**:Response body contains the following key - value pairs:
-{
-  "title": "Sample Title",
-  "body": "Sample Bodyy",
-  "userId": 1
-}
+Secound bug:<br>
+**Title**: Response should contain the correct post details<br>
+**Pre-Conditions**:  Endpoint: https://jsonplaceholder.typicode.com/posts<br>
+- Body:<br>
+{<br>
+  "title": "Sample Title",<br>
+  "body": "Sample Bodyy",<br>
+  "userId": 1<br>
+}<br>
+**Execution steps**:1. Configure the Endpoint with the URL from the pre-conditions<br>
+2. Configure the Body with the Body from the pre-conditions<br>
+3. Run the request<br>
+**Expected results**: Response body should contain the following key - value pairs:<br>
+{<br>
+**Actual results**:Response body contains the following key - value pairs:<br>
+{<br>
+  "title": "Sample Title",<br>
+  "body": "Sample Bodyy",<br>
+  "userId": 1<br>
+}<br>
   
 <h2>Conclusions</h2>
 
