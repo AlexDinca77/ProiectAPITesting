@@ -86,12 +86,7 @@ JavaScript Tests:<br>
 Below you can find the execution report that was generated through the Postman collection runner. <br>
 {<br>
 
- <br>![image](https://github.com/AlexDinca77/api_testing_postman_jsonplaceholder/assets/167679707/e3e7e1ac-4e70-431b-a8ea-97c34dcc66d9)<br>
-<br>![image](https://github.com/AlexDinca77/api_testing_postman_jsonplaceholder/assets/167679707/e255a86e-44d7-4ee5-a19d-9103f04e4889)<br>
-<br>![image](https://github.com/AlexDinca77/api_testing_postman_jsonplaceholder/assets/167679707/d35358a3-29c4-4ef2-a0fc-9e381470d3ae)<br>
-<br>![image](https://github.com/AlexDinca77/api_testing_postman_jsonplaceholder/assets/167679707/d980a47b-9a84-4d17-8abb-e5a4c696fa88)<br>
-
-
+<br> ![image](https://github.com/AlexDinca77/api_testing_postman_jsonplaceholder/assets/167679707/9b9951af-6c98-4f91-bec5-1e6c6e65c511)<br>
 
 
 First bug:<br>
