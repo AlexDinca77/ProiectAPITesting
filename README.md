@@ -1,12 +1,21 @@
 <h1>API Testing Project for api_testing_postman_jsonplaceholder</h1>
 
-The scope of this project is to use all  API knowledge gained throughout the Software Testing course and apply them in practice, using a live application.
+<h2>Introduction</h2>
+JSONPlaceholder is a web application that serves as a simulated back-end service, providing data in JSON format for use in developing and testing web or mobile applications. Created by a frontend developer named Typicode, JSONPlaceholder is useful for programmers to obtain realistic test data without needing their own server or accessing a real service.<br>
 
-Application under test: *JSON Placeholder*
+The main features of JSONPlaceholder include:<br>
+**Consistent test data**: JSONPlaceholder offers a wide range of endpoints that return standardized JSON data. This data often mimics the structures found in real web applications, such as posts, comments, photo albums, and more.<br>
+**Simulation of RESTful functionality**: JSONPlaceholder implements standard HTTP operations, such as GET, POST, PUT, DELETE, which are characteristic of RESTful architecture. This allows developers to test their applications to ensure they interact correctly with a RESTful API.<br>
+**Accessibility and ease of use**: To access the data, developers can make HTTP requests to the URLs provided by JSONPlaceholder. No authentication or additional configuration is required to start using the service.<br>
+**Open Source and free**: JSONPlaceholder is an open-source project, meaning its source code is available for anyone to review, modify, or improve. Additionally, it is free to use and does not require account creation to access the data.<br>
 
-Tools used: Postman
+The scope of this project is to use all  API knowledge gained throughout the Software Testing course and apply them in practice, using a live application.<br>
 
-Collection link: *https://jsonplaceholder.typicode.com/posts*
+Application under test: *JSON Placeholder*<br>
+
+Tools used: Postman<br>
+
+Collection link: *https://jsonplaceholder.typicode.com/posts*<br>
 
 <h2>Tests performed</h2>
 
