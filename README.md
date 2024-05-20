@@ -11,7 +11,75 @@ The main features of JSONPlaceholder include:<br>
 
 The scope of this project is to use all  API knowledge gained throughout the Software Testing course and apply them in practice, using a live application.<br>
 
-Application under test: *JSON Placeholder*<br>
+### Cazuri de testare pentru API-ul JSONPlaceholder
+
+#### GET Request Test
+- *Scop*: Verificarea obținerii unei postări specifice.<br>
+- *URL*: https://jsonplaceholder.typicode.com/posts/1<br>
+- *Pași*:<br>
+  1. Trimitere cerere GET către URL.<br>
+  2. Verificarea codului de status (așteptat: 200 OK).<br>
+  3. Verificarea că răspunsul conține detaliile corecte ale postării.<br>
+  4. Verificarea titlului postării (așteptat: "Titlul meu").<br>
+- *Rezultate așteptate*:<br>
+  - Status code: 200.<br>
+  - Detaliile postării sunt corecte.<br>
+  - Titlul este "Titlul meu".<br>
+
+#### POST Request Test<br>
+- *Scop*: Verificarea creării unei postări noi.<br>
+- *URL*: https://jsonplaceholder.typicode.com/posts<br>
+- *Pași*:<br>
+  1. Trimitere cerere POST cu datele postării.<br>
+  2. Verificarea codului de status (așteptat: 201 Created).<br>
+  3. Verificarea că răspunsul nu este gol.<br>
+  4. Verificarea detaliilor corecte ale postării create.<br>
+- *Rezultate așteptate*:<br>
+  - Status code: 201.<br>
+  - Răspunsul nu este gol.<br>
+  - Detaliile postării sunt corecte.<br>
+
+#### PUT Request Test<br>
+- *Scop*: Verificarea actualizării unei postări existente.<br>
+- *URL*: https://jsonplaceholder.typicode.com/posts/1<br>
+- *Pași*:<br>
+  1. Trimitere cerere PUT cu datele actualizate ale postării.<br>
+  2. Verificarea codului de status (așteptat: 200 OK).<br>
+  3. Verificarea că răspunsul nu este gol.<br>
+  4. Verificarea detaliilor actualizate ale postării.<br>
+- *Rezultate așteptate*:<br>
+  - Status code: 200.<br>
+  - Răspunsul nu este gol.<br>
+  - Detaliile postării sunt actualizate corect.<br>
+
+#### DELETE Request Test<br>
+- *Scop*: Verificarea ștergerii unei postări existente.<br>
+- *URL*: https://jsonplaceholder.typicode.com/posts/1<br>
+- *Pași*:
+  1. Trimitere cerere DELETE.<br>
+  2. Verificarea codului de status (așteptat: 200 OK).<br>
+  3. Verificarea că răspunsul este un obiect gol.<br>
+- *Rezultate așteptate*:<br>
+  - Status code: 200.<br>
+  - Răspunsul este un obiect gol.<br>
+
+### Planificarea metodelor de testare<br>
+
+#### Metode de testare<br>
+- *Testare manuală*: Testerul urmează pașii descriși pentru fiecare caz de testare și verifică rezultatele manual.<br>
+- *Testare automată*: Scrierea scripturilor de testare automatizate folosind un framework precum Postman sau Jest pentru a executa aceiași pași în mod automat.<br>
+
+#### Plan de testare<br>
+- *Ziua 1*:<br>
+  - Testare manuală a cazurilor de testare GET și POST.<br>
+- *Ziua 2*:<br>
+  - Testare manuală a cazurilor de testare PUT și DELETE.<br>
+  - Scrierea scripturilor de testare automată pentru toate cazurile de testare.<br>
+- *Ziua 3*:<br>
+  - Executarea testelor automate și analizarea rezultatelor.<br>
+
+
+Application under test: *JSON Placeholder*
 
 Tools used: Postman<br>
 
