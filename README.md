@@ -90,7 +90,6 @@ Below you can find the execution report that was generated through the Postman c
 
 
 First bug:<br>
-
 **Title**: Response should contain 'Titlul meu' as the title<br>
 **Pre-conditions**:'- Endpoint: https://jsonplaceholder.typicode.com/posts/1<br>
 **Execution steps**: 1. Configure the Endpoint with the URL from the pre-conditions<br>
@@ -107,10 +106,26 @@ Secound bug:<br>
   "body": "Sample Bodyy",<br>
   "userId": 1<br>
 }<br>
-**Execution steps**:1. Configure the Endpoint with the URL from the pre-conditions<br>
+**Execution steps**:<br>
+1. Configure the Endpoint with the URL from the pre-conditions<br>
 2. Configure the Body with the Body from the pre-conditions<br>
 3. Run the request<br>
 **Expected results**: Response body should contain the following key - value pairs:<br>
+{<br>
+**Actual results**:Response body contains the following key - value pairs:<br>
+{<br>
+  "title": "Sample Title",<br>
+  "body": "Sample Bodyy",<br>
+  "userId": 1<br>
+}<br>
+
+Third bug:<br>
+**Title**: Response should contain the 'numberOfLikes' propertys<br>
+**Pre-Conditions**:  Endpoint: https://jsonplaceholder.typicode.com/posts/1<br>
+**Execution steps**:<br>
+1. Configure the Endpoint with the URL from the pre-conditions<br>
+2. Run the request<br>
+**Expected results**: Response body should contain the 'numberOfLikes' property:<br>
 {<br>
 **Actual results**:Response body contains the following key - value pairs:<br>
 {<br>
