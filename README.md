@@ -119,7 +119,12 @@ Secound bug:<br>
 1. Configure the Endpoint with the URL from the pre-conditions<br>
 2. Configure the Body with the Body from the pre-conditions<br>
 3. Run the request<br>
-**Expected results**: Response body should contain the following key - value pairs:<br>
+**Expected results**:Response body should contain the following key - value pairs:<br>
+{<br>
+  "title": "Sample Title",<br>
+  "body": "Sample Body",<br>
+  "userId": 1<br>
+}<br>
 {<br>
 **Actual results**:Response body contains the following key - value pairs:<br>
 {<br>
@@ -134,8 +139,7 @@ Third bug:<br>
 **Execution steps**:<br>
 1. Configure the Endpoint with the URL from the pre-conditions<br>
 2. Run the request<br>
-**Expected results**: Response body should contain the 'numberOfLikes' property:<br>
-{<br>
+**Expected results**: Response body should contain the 'numberOfLikes' property.<br>
 **Actual results**:Response body contains the following key - value pairs:<br>
 {<br>
   "title": "Sample Title",<br>
