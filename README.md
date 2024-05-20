@@ -121,7 +121,7 @@ Secound bug:<br>
   
 <h2>Conclusions</h2>
 
-**Executed tests:** 12<br>
+**Executed tests:** 13<br>
 **Passed:** 10<br>
-**Failed:** 2<br>
-**The software seems stable. The severity of the bugs is minor. However, the two requests should be correctly updated before the Production release**
+**Failed:** 3<br>
+**The software seems stable. The severity of the bugs is minor. However, the requests should be correctly updated before the Production release**

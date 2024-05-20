@@ -1,7 +1,7 @@
 {
-	"id": "74929739-9886-4b4d-a7ab-fbef9b77a60e",
+	"id": "712d95fa-6d35-48bf-828c-13c4e800a760",
 	"name": "Proiect final",
-	"timestamp": "2024-04-21T09:31:46.178Z",
+	"timestamp": "2024-05-20T14:49:13.596Z",
 	"collection_id": "33827757-86597499-448a-4234-b60c-2e57d80f8525",
 	"folder_id": 0,
 	"environment_id": "0",
@@ -9,14 +9,14 @@
 	"delay": 0,
 	"persist": true,
 	"status": "finished",
-	"startedAt": "2024-04-21T09:31:44.403Z",
-	"totalFail": 2,
+	"startedAt": "2024-05-20T14:49:12.113Z",
+	"totalFail": 3,
 	"results": [
 		{
 			"id": "f9c19b7c-e3df-4c4f-aec2-e37711b8a106",
 			"name": "GET Request Tests",
 			"url": "https://jsonplaceholder.typicode.com/posts/1",
-			"time": 98,
+			"time": 62,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -24,6 +24,7 @@
 			"tests": {
 				"Status code is 200": true,
 				"Response contains the correct post details": true,
+				"Response contains the number of likes": false,
 				"Response contains the correct post": true,
 				"Response should contain 'Titlul meu' as the title": false
 			},
@@ -36,6 +37,10 @@
 					"pass": 1,
 					"fail": 0
 				},
+				"Response contains the number of likes": {
+					"pass": 0,
+					"fail": 1
+				},
 				"Response contains the correct post": {
 					"pass": 1,
 					"fail": 0
@@ -46,12 +51,13 @@
 				}
 			},
 			"times": [
-				98
+				62
 			],
 			"allTests": [
 				{
 					"Status code is 200": true,
 					"Response contains the correct post details": true,
+					"Response contains the number of likes": false,
 					"Response contains the correct post": true,
 					"Response should contain 'Titlul meu' as the title": false
 				}
@@ -61,7 +67,7 @@
 			"id": "4c087531-2e24-45db-a9a3-e64512f371c1",
 			"name": "POST Request Tests",
 			"url": "https://jsonplaceholder.typicode.com/posts",
-			"time": 399,
+			"time": 145,
 			"responseCode": {
 				"code": 201,
 				"name": "Created"
@@ -86,7 +92,7 @@
 				}
 			},
 			"times": [
-				399
+				145
 			],
 			"allTests": [
 				{
@@ -100,7 +106,7 @@
 			"id": "a53a19b7-3488-4999-98d2-86b0579793b5",
 			"name": "PUT Request Tests",
 			"url": "https://jsonplaceholder.typicode.com/posts/1",
-			"time": 395,
+			"time": 431,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -125,7 +131,7 @@
 				}
 			},
 			"times": [
-				395
+				431
 			],
 			"allTests": [
 				{
@@ -139,7 +145,7 @@
 			"id": "2c38a2b9-4e0d-40a3-9c4c-05e300831d2f",
 			"name": "DELETE Request Tests",
 			"url": "https://jsonplaceholder.typicode.com/posts/1",
-			"time": 157,
+			"time": 152,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -159,7 +165,7 @@
 				}
 			},
 			"times": [
-				157
+				152
 			],
 			"allTests": [
 				{
@@ -170,7 +176,7 @@
 		}
 	],
 	"count": 1,
-	"totalTime": 1049,
+	"totalTime": 790,
 	"collection": {
 		"requests": [
 			{

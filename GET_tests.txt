@@ -13,6 +13,11 @@ pm.test("Response contains the correct post details", function () {
     pm.expect(jsonData).to.have.property('body');
 });
 
+pm.test("Response contains the number of likes", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData).to.have.property('numberOfLikes');
+});
+
 pm.test("Response contains the correct post", function () {
     var jsonData = pm.response.json();
     pm.expect(jsonData).to.have.property('id', 1);
