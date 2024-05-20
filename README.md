@@ -125,7 +125,6 @@ Secound bug:<br>
   "body": "Sample Body",<br>
   "userId": 1<br>
 }<br>
-{<br>
 **Actual results**:Response body contains the following key - value pairs:<br>
 {<br>
   "title": "Sample Title",<br>
